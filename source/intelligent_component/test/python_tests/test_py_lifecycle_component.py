@@ -1,6 +1,6 @@
 import pytest
 
-from template_component_package.py_lifecycle_component import PyLifecycleComponent
+from intelligent_component.py_lifecycle_component import PyLifecycleComponent
 
 
 @pytest.fixture()

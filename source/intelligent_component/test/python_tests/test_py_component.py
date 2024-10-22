@@ -1,6 +1,6 @@
 import pytest
 
-from template_component_package.py_component import PyComponent
+from intelligent_component.py_component import PyComponent
 
 
 @pytest.fixture()

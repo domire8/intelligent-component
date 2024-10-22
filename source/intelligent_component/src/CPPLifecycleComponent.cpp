@@ -1,6 +1,6 @@
-#include "template_component_package/CPPLifecycleComponent.hpp"
+#include "intelligent_component/CPPLifecycleComponent.hpp"
 
-namespace template_component_package {
+namespace intelligent_component {
 CPPLifecycleComponent::CPPLifecycleComponent(const rclcpp::NodeOptions& options) :
     modulo_components::LifecycleComponent(options, "CPPLifecycleComponent") {
   // add parameters, inputs and outputs here
@@ -31,8 +31,8 @@ void CPPLifecycleComponent::on_step_callback() {
   // do something periodically
 }
 
-} // namespace template_component_package
+} // namespace intelligent_component
 
 #include "rclcpp_components/register_node_macro.hpp"
 
-RCLCPP_COMPONENTS_REGISTER_NODE(template_component_package::CPPLifecycleComponent)
+RCLCPP_COMPONENTS_REGISTER_NODE(intelligent_component::CPPLifecycleComponent)

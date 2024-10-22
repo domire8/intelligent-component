@@ -1,6 +1,6 @@
-#include "template_component_package/CPPComponent.hpp"
+#include "intelligent_component/CPPComponent.hpp"
 
-namespace template_component_package {
+namespace intelligent_component {
 CPPComponent::CPPComponent(const rclcpp::NodeOptions& options) :
     modulo_components::Component(options, "CPPComponent") {
   // add parameters, inputs and outputs here
@@ -21,8 +21,8 @@ bool CPPComponent::on_execute_callback() {
   return true;
 }
 
-} // namespace template_component_package
+} // namespace intelligent_component
 
 #include "rclcpp_components/register_node_macro.hpp"
 
-RCLCPP_COMPONENTS_REGISTER_NODE(template_component_package::CPPComponent)
+RCLCPP_COMPONENTS_REGISTER_NODE(intelligent_component::CPPComponent)

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(template_component_package)
+project(intelligent_component)
 
 # default to C99
 if(NOT CMAKE_C_STANDARD)
